@@ -1,6 +1,9 @@
 function calcul(a, b) {
-  var inutilise = 0;
-  if (a > 10) { return a + b; }
-  else { return a + b; }
+  if (a > 10) {
+    return a + b;
+  } else {
+    return a + b;
+  }
 }
+
 module.exports = calcul;
